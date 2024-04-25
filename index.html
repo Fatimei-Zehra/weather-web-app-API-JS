@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="./IMG/13778291-preview.mp4" type="video/mp4">
+    </video>
+
+    <div class="input">
+        <input type="text" placeholder="Click.." id="inputValue">
+
+        <button id="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+
+
+
+    <div class="container">
+        <div class="weather">
+            <div class="weather-details">
+
+                <div class="mobile-responsive-weather-details" style="display: none;">
+
+                    <div class="weather-icon-mobile">
+                    </div>
+
+                    <div class="weather-details-second-mobile">
+                        <p id="temperature">10°C</p>
+                        <p id="cityName">BAKU</p>
+                    </div>
+
+
+                    <div class="weather-content-mobile">
+                        <div class="wind">
+                            <i class='bx bx-wind'></i>
+                            <p id="wind">8 Km/h</p>
+                        </div>
+                        <div class="humidity">
+                            <i class="bx bx-water"></i>
+                            <p id="humidity">20%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="daily-weather-mobile">
+                     <!-- 1ci -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+                 <!-- 1ci -->
+                 <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+
+                 <!-- 1ci -->
+                 <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+
+                 <!-- 1ci -->
+                 <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+
+                 <!-- 1ci -->
+                 <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+
+                 <!-- 1ci -->
+                 <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+                </div>
+
+
+
+                <!--! website code -->
+                <div class="weather-icon">
+                    <!-- <i class="fa-solid fa-cloud-moon-rain"></i> -->
+                </div>
+                <div class="date">
+                    <p class="day">19</p>
+                    <p class="month">April</p>
+                </div>
+                <div class="weather-details-second">
+                    <p id="temperature">10°C</p>
+                    <p id="cityName">BAKU</p>
+                </div>
+
+                <div class="time">
+                    <p class="hours">12</p>
+                    <p class="minutes">:15</p>
+                    <p id="pm">PM</p>
+                </div>
+
+                <div class="line"></div>
+            </div>
+
+            <div class="weather-content">
+                <div class="wind">
+                    <i class='bx bx-wind'></i>
+                    <p id="wind">8 Km/h</p>
+                </div>
+                <div class="humidity">
+                    <i class="bx bx-water"></i>
+                    <p id="humidity">20%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="daily-weather">
+            <div class="daily-weather-details">
+                <!-- 1ci -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+                <div class="line-daily1"></div>
+
+                <!-- 2ci -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+                <div class="line-daily2"></div>
+
+                <!-- 3cu -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+                <div class="line-daily3"></div>
+
+                <!-- 4cu -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+
+                <!-- 5ci -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+
+                <div class="line-daily4"></div>
+
+                <!-- 6ci -->
+                <div class="day">
+                    <p class="weekend">Monday</p>
+                    <div id="weather-icon">
+                        <i class="fa-solid fa-cloud-moon-rain"></i>
+                    </div>
+                    <p id="temperature-daily">
+                        10°C
+                    </p>
+                </div>
+                <div class="line-daily5"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="presenter">
+        <img src="./IMG/presenterrrrrrrrrr.png" alt="">
+    </div>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>

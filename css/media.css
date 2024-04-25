@@ -1,0 +1,172 @@
+@media only screen and (max-width: 850px) {
+    .presenter {
+        display: none;
+    }
+
+    .input {
+        width: 100%;
+        top: 30%;
+    }
+
+    .daily-weather {
+        display: none !important;
+    }
+
+    .weather {
+        height: 320px;
+    }
+
+    .weather-content {
+        display: none;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .weather-details-second {
+        display: none
+    }
+
+
+    .date {
+        display: none;
+    }
+
+    .date-item {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .date-mobile {
+        display: flex;
+
+    }
+
+    .time-mobile {
+        display: flex;
+    }
+
+    .time {
+        display: none;
+    }
+
+    .mobile-responsive-weather-details {
+        display: block !important;
+    }
+
+    .weather-icon {
+        display: none;
+    }
+
+    .weather-icon .mobile{
+        display: block;
+        margin-left: 150px;
+        width: 125px;
+        height: 125px;
+        font-size: 70px;
+    }
+    .weather-content-mobile img {
+        width: 100%;
+    }
+
+    .weather-details-second-mobile {
+        display: block;
+    }
+
+    .weather-details {
+        display: block;
+    }
+
+    .weather-content-mobile {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .wind i,
+    .humidity i {
+        font-size: 30px;
+       
+    }
+
+  
+
+    .humidity i{
+        margin-left: 40px;
+    }
+    .daily-weather-mobile{
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        width: 100%;
+        padding: 20px 80px;
+        border-radius: 55px;
+        border: 1px solid #f3f3f3;
+        margin-top: 80px;
+        position: absolute;
+        top: 100%;
+        right: 4px;
+    }
+
+    .day{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    #weather-icon {
+        font-size: 35px;
+    }
+
+    .weather-icon-mobile{
+        margin-left: 174px;
+    }
+
+    #inputValue{
+        width: 56%;
+    }
+
+    #search-icon {
+      left: 51%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    #inputValue{
+        width: 63%;
+    }
+
+    .weather-icon-mobile {
+        margin-left: 45px;
+    }
+
+    .day .weekend {
+        font-size: 16px;
+    }
+
+    .daily-weather-mobile{
+        padding: 20px 30px;
+        margin-top: 35px;
+    }
+
+    #weather-icon {
+        font-size: 26px;
+    }
+
+    #temperature-daily {
+        font-size: 20px;
+    }
+
+    .weather{
+        margin-top: 57px;
+    }
+
+    #humidity{
+        font-size: 15px;
+    }
+
+    #wind{
+        font-size: 15px;
+    }
+}

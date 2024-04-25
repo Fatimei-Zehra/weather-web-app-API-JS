@@ -1,0 +1,303 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dancing Script", cursive;
+}
+
+body{
+    background-color: darkgray
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.weather {
+    background-color: #f3f3f3;
+    padding: 20px 40px;
+    /* margin-top: 65px; */
+    margin-top: 90px;
+    border: 1px solid #f3f3f3;
+    border-radius: 55px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.weather-details {
+    display: flex;
+
+}
+
+.weather-icon {
+    font-size: 70px;
+}
+
+.weather-icon .mobile{
+    display: none;
+}
+
+.date {
+    display: flex;
+    /* margin-left: 35px; */
+}
+
+.date p:first-child {
+    font-size: 33px;
+    font-weight: 600px;
+    display: flex;
+}
+
+.date p:last-child {
+    margin-left: 8px;
+}
+
+.time {
+    display: flex;
+}
+
+.time p:first-child {
+    font-size: 30px;
+}
+
+#pm {
+    font-size: 13px;
+    margin-top: 17px;
+    margin-left: 6px;
+}
+
+.weather-details-second {
+    width: 26%;
+}
+
+#cityName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+#temperature {
+    text-align: center;
+    font-size: 30px;
+}
+
+.line {
+    background-color: gray;
+    height: 1px;
+    width: 13.5%;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 71px;
+    right: 35%;
+}
+
+.weather-content {
+    position: absolute;
+    right: 180px;
+    top: 17px;
+}
+
+.wind,
+.humidity {
+    display: flex;
+    align-items: center;
+
+}
+
+.wind i,
+.humidity i {
+    font-size: 55px;
+    margin-right: 10px;
+}
+
+
+.daily-weather {
+    background-color: #f3f3f3;
+    padding: 20px 80px;
+    margin-top: 65px;
+    border: 1px solid #f3f3f3;
+    border-radius: 55px;
+    position: relative;
+}
+
+.daily-weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day{
+    text-align: center;
+}
+
+
+.day .weekend{
+    font-size: 25px;
+}
+
+#weather-icon{
+    font-size: 60px;
+}
+
+#temperature-daily{
+    font-size: 35px;
+}
+.line-daily1 {
+    background-color: gray;
+    height: 1px;
+    width: 19.5%;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 103px;
+    right: 100px;
+}
+
+.line-daily2 {
+    background-color: gray;
+    height: 1px;
+    width: 19.5%;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 103px;
+    left: 115px;
+}
+
+
+.line-daily3 {
+    background-color: gray;
+    height: 1px;
+    width: 19.5%;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 102px;
+    left: 25%;
+}
+
+.line-daily4 {
+    background-color: gray;
+    height: 1px;
+    width: 19.5%;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 103px;
+    left: 40%;
+}
+
+
+.line-daily5 {
+    background-color: gray;
+    height: 1px;
+    width: 19.5%;
+    rotate: 90deg;
+    position: absolute;
+    bottom: 103px;
+    right: 25%;
+}
+
+.presenter{
+    left: 73px;
+    position: absolute;
+    width: 0px;
+    /* top: 6%; */
+    top: 10%;
+}
+
+.presenter img{
+    width: 295px;
+}
+
+    
+.input {
+    top: 40px;
+    display: flex;
+    align-items: center;
+    height: 320px;
+    position: absolute;
+    left: 21%;
+    width: 50%;
+}
+
+#inputValue{
+    padding: 8px 10px;
+    width: 50%;
+    border: 1px solid gray;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+}
+
+#search-icon {
+    position: absolute;
+    font-size: 20px;
+    left: 45%;
+    bottom: 147px;
+    cursor: pointer;
+    color: #000;
+}
+
+.weather{
+   display: none;
+}
+
+.daily-weather{
+    display: none;
+}
+
+button{
+    background:none;
+    border: none;
+}
+
+.weather-icon>img{
+    width: 100%;
+}
+
+.weather-icon{
+    width: 125px;
+    height: 125px;
+}
+
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  .daily-weather-mobile{
+    display: none;
+  }
+
+
+  
